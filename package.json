@@ -1,0 +1,52 @@
+{
+  "name": "ServeContentWithJade",
+  "version": "0.1.0",
+  "description": "Serving Content in Koajs with Jade",
+  "main": "example.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "co-fs": "^1.2.0",
+    "co-body": "^1.0.0",
+    "co-views": "^0.2.0",
+    "co-mocha": "^1.1.0",
+    "co-supertest": "^0.0.7",
+    "html": "^0.0.7",
+    "escape-html": "^1.0.1",
+    "colors": "^1.0.3",
+    "koa-static": "^1.4.8",
+    "jade": "^1.8.2",
+    "supertest": "^0.15.0",
+    "koa": "^0.14.0"
+  },
+  "devDependencies": {
+    "co-body": "^1.0.0",
+    "co-supertest": "0.0.7",
+    "co-views": "^0.2.0",
+    "colors": "^1.0.3",
+    "escape-html": "^1.0.1",
+    "html": "0.0.7",
+    "koa": "^0.14.0",
+    "mocha": "^2.1.0",
+    "supertest": "^0.15.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/knowthen/Episode-6-Serving-Content-in-Koajs-with-Jade.git"
+  },
+  "keywords": [
+    "Koajs",
+    "jade",
+    "nodejs"
+  ],
+  "author": "James Moore <james@knowthen.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/knowthen/Episode-6-Serving-Content-in-Koajs-with-Jade/issues"
+  },
+  "homepage": "https://github.com/knowthen/Episode-6-Serving-Content-in-Koajs-with-Jade"
+}
