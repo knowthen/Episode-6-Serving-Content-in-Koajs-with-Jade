@@ -1,0 +1,11 @@
+extends ./layout.jade
+block content
+  h1 Pros and Cons of using Jade
+  h2 Pros
+  ul
+    each pro in pros
+      li=pro
+  h2 Cons
+  ul
+    each con in cons
+      li=con

@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+  head
+    title= title
+    link(href='css/site.css', rel='stylesheet')
+  body
+    include ./header.jade
+    // 
+      this comment will
+      render in html
+    block content
+    //- this comment won't render in html
+    include ./scripts.jade
+
